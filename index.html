@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soujanya Dakuri | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-box">A</span>
+                <span class="logo-text">SYS.ADMIN</span>
+            </a>
+            <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Navigation Line">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-links">
+                <a href="#home" class="nav-item active"><i class="fa-solid fa-terminal"></i> Core</a>
+                <a href="#about" class="nav-item"><i class="fa-solid fa-user-gear"></i> Profile</a>
+                <a href="#skills" class="nav-item"><i class="fa-solid fa-layer-group"></i> Stack</a>
+                <a href="#projects" class="nav-item"><i class="fa-solid fa-code-branch"></i> Projects</a>
+                <a href="#education" class="nav-item"><i class="fa-solid fa-database"></i> Registry</a>
+                <a href="#testimonials" class="nav-item"><i class="fa-solid fa-comments"></i> Logs</a>
+                <a href="#contact" class="nav-item"><i class="fa-solid fa-envelope"></i> Connect</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="terminal-container">
+
+        <section id="home" class="section section-hero">
+            <div class="glitch-wrapper">
+                <div class="static-code">// INITIALIZING HOST_CONNECTION... OK</div>
+                <h1 class="hero-title">Soujanya Dakuri</h1>
+                <p class="hero-subtitle">Computer Science Engineer & Backend Systems Enthusiast</p>
+                <p class="hero-log">> HTML // CSS // JAVA // SQL // JAVASCRIPT</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-folder-open"></i> View Projects</a>
+                    <a href="./ASSETS/DakuriResume(Final).pdf" download="Soujanya_Dakuri_Resume.pdf" class="btn btn-secondary"><i class="fa-solid fa-download"></i> Fetch Resume.pdf</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title"><span class="accent">//01.</span> Professional Summary</h2>
+            <div class="card terminal-card">
+                <div class="card-header">
+                    <span class="circle red"></span><span class="circle yellow"></span><span class="circle green"></span>
+                    <span class="card-title-text">sys_profile_manifest.cfg</span>
+                </div>
+                <div class="card-body">
+                    <p class="summary-text">
+                        As a Computer Science student skilled in HTML, CSS, Java and SQL with hands-on project experience. Strong problem-solving and teamwork skills. Looking to start my career in an organization where I can contribute, learn and grow as a software professional.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title"><span class="accent">//02.</span> Core Capabilities</h2>
+            <div class="skills-grid">
+                <div class="card terminal-card">
+                    <div class="card-header"><span class="card-title-text"><i class="fa-solid fa-code"></i> Technical_Skills</span></div>
+                    <div class="card-body">
+                        <div class="tags-container">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card terminal-card">
+                    <div class="card-header"><span class="card-title-text"><i class="fa-solid fa-screwdriver-wrench"></i> Environment_Tools</span></div>
+                    <div class="card-body">
+                        <div class="tags-container">
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Eclipse IDE</span>
+                            <span class="tag">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card terminal-card">
+                    <div class="card-header"><span class="card-title-text"><i class="fa-solid fa-desktop"></i> Operating_Systems</span></div>
+                    <div class="card-body">
+                        <div class="tags-container">
+                            <span class="tag">Windows</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card terminal-card">
+                    <div class="card-header"><span class="card-title-text"><i class="fa-solid fa-users-gear"></i> Soft_Skills</span></div>
+                    <div class="card-body">
+                        <div class="tags-container">
+                            <span class="tag">Team collaboration</span>
+                            <span class="tag">Adaptability</span>
+                            <span class="tag">Communication Skills</span>
+                            <span class="tag">Organising Skills</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title"><span class="accent">//03.</span> Project Repositories</h2>
+            <div class="projects-grid">
+                
+                <div class="card project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-open folder-icon"></i>
+                        <span class="tech-badge">Java</span>
+                    </div>
+                    <h3 class="project-title">Quiz Application</h3>
+                    <p class="project-desc">Developed a dynamic web-based quiz application executing optimized state tracking structures.</p>
+                    <ul class="project-details">
+                        <li>Implements explicit user authentication workflows.</li>
+                        <li>Dynamic, real-time quiz management engine.</li>
+                        <li>Persistent scoreboard calculation tracking matrix.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-open folder-icon"></i>
+                        <span class="tech-badge">Java / MySQL</span>
+                    </div>
+                    <h3 class="project-title">Search-to-Search Web App</h3>
+                    <p class="project-desc">Engineered and containerized a core web application architectural system leveraging structural databases.</p>
+                    <ul class="project-details">
+                        <li>Built robust web app structures using Java and MySQL.</li>
+                        <li>Designed modular UI using HTML, CSS, and Bootstrap responsive frames.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-open folder-icon"></i>
+                        <span class="tech-badge">Arduino / C++</span>
+                    </div>
+                    <h3 class="project-title">Firefighting Robot</h3>
+                    <p class="project-desc">Designed and deployed an autonomous robotic field asset for real-time threat detection and navigation.</p>
+                    <ul class="project-details">
+                        <li>Utilizes dedicated custom hardware flame sensors and Arduino boards.</li>
+                        <li>Configured automated sensor-driven hardware motor control arrays.</li>
+                    </ul>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header">
+                        <i class="fa-regular fa-folder-open folder-icon"></i>
+                        <span class="tech-badge">Automation</span>
+                    </div>
+                    <h3 class="project-title">Smart Irrigation Scheduler</h3>
+                    <p class="project-desc">Designed an automated system to optimize water usage based on energy availability data models.</p>
+                    <ul class="project-details">
+                        <li>Optimized water application scheduling directly aligned to grid capabilities.</li>
+                        <li>Improved resource efficiency using renewable energy load forecasting techniques.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title"><span class="accent">//04.</span> Data Registry & Credentials</h2>
+            
+            <div class="timeline-container">
+                <div class="timeline-block">
+                    <div class="timeline-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="card terminal-card timeline-content">
+                        <div class="card-header">
+                            <span class="date-tag">2023 - 2026</span>
+                            <span class="card-title-text">B.Tech in Computer Science Engineering</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="inst-title">Anurag University</h4>
+                            <p class="gpa-metric">Metrics: <strong>CGPA 7.65</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-block">
+                    <div class="timeline-badge"><i class="fa-solid fa-microchip"></i></div>
+                    <div class="card terminal-card timeline-content">
+                        <div class="card-header">
+                            <span class="date-tag">2020 - 2023</span>
+                            <span class="card-title-text">Diploma in Electronics Communication Engineering</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="inst-title">Samskruthi College of Engineering and Technology</h4>
+                            <p class="gpa-metric">Metrics: <strong>CGPA 7.71</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-block">
+                    <div class="timeline-badge"><i class="fa-solid fa-school"></i></div>
+                    <div class="card terminal-card timeline-content">
+                        <div class="card-header">
+                            <span class="date-tag">2020</span>
+                            <span class="card-title-text">Board of Education Matrix</span>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="inst-title">Spring's Public High School</h4>
+                            <p class="gpa-metric">Metrics: <strong>CGPA 9.3</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card terminal-card metrics-card">
+                <div class="card-header"><span class="card-title-text"><i class="fa-solid fa-award"></i> system_event_logs.log</span></div>
+                <div class="card-body events-list">
+                    <div class="event-item">
+                        <span class="event-date">[Feb 2025]</span>
+                        <p class="event-text">Active Hackathon Participant: Evaluated and built prototypes inside the <strong>TechXcelerate 24-Hour Hackathon</strong> sprint environment.</p>
+                    </div>
+                    <div class="event-item">
+                        <span class="event-date">[Mar 2025]</span>
+                        <p class="event-text">Operations Organizer: Spearheaded organizational design and team logistics management frameworks for the <strong>Daksha Event</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <h2 class="section-title"><span class="accent">//05.</span> System Peer Reviews</h2>
+            
+            <div class="carousel-wrapper">
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <div class="testimonial-content">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="feedback-text">Soujanya demonstrated high technical adaptability during our team development cycle. Her systematic understanding of database relationships and clean logic architectures made our deployment seamless.</p>
+                            <h4 class="reviewer-name">Project Collaboration Team</h4>
+                            <span class="reviewer-title">TechXcelerate Participant Module</span>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="testimonial-content">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="feedback-text">Excellent organizational capabilities. Handling project management and logistics during our major tech symposium requires precision, structural planning, and leadership—which she executed flawlessly.</p>
+                            <h4 class="reviewer-name">Daksha Coordinating Committee</h4>
+                            <span class="reviewer-title">Event Operations Lead</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-controls">
+                    <button id="prevBtn" class="carousel-btn" aria-label="Previous Slide"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button id="nextBtn" class="carousel-btn" aria-label="Next Slide"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title"><span class="accent">//06.</span> Establish Connection</h2>
+            <div class="card terminal-card contact-card">
+                <div class="card-body contact-grid">
+                    <div class="contact-info">
+                        <h3>System Coordinates</h3>
+                        <p class="terminal-prompt">Ready to accept remote connection protocols. Reach out via network nodes:</p>
+                        
+                        <div class="info-link-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Hyderabad, Telangana, India</span>
+                        </div>
+                        <a href="mailto:dakurisoujanya12@gmail.com" class="info-link-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>dakurisoujanya12@gmail.com</span>
+                        </a>
+                        <a href="tel:+917075938171" class="info-link-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+91 7075938171</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/soujanya-dakuri-7b943b311" target="_blank" rel="noopener" class="info-link-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>linkedin.com/in/soujanya-dakuri</span>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-terminal">
+                        <div class="terminal-top">
+                            <span class="terminal-text">bash - mail_client.sh</span>
+                        </div>
+                        <form class="terminal-form" onsubmit="event.preventDefault(); alert('Message transmission simulated successfully.');">
+                            <div class="form-group">
+                                <label for="sender-name">guest@localhost:~# name</label>
+                                <input type="text" id="sender-name" placeholder="Identify yourself..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sender-email">guest@localhost:~# email</label>
+                                <input type="email" id="sender-email" placeholder="Return route mail..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="sender-msg">guest@localhost:~# payload</label>
+                                <textarea id="sender-msg" rows="4" placeholder="Type data packet text here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">> EXECUTE TRANSMIT</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="system-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Soujanya Dakuri. All rights operational.</p>
+            <p class="footer-tech">Built via HTML5 // CSS3 // ES6 Architecture</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
